@@ -1,0 +1,20 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "arxiv-digest",
+  "displayName": "arXiv Digest",
+  "version": "0.1.0",
+  "description": "Personalized, tiered digest of newly announced arXiv papers: triage of every new submission, cross-list and replacement against your research profile, close readings of the best matches, a phone-friendly page, and optional notifications.",
+  "author": {
+    "name": "Moral E."
+  },
+  "homepage": "https://github.com/Moral-eddy/arxiv-digest",
+  "repository": "https://github.com/Moral-eddy/arxiv-digest",
+  "license": "MIT",
+  "keywords": [
+    "arxiv",
+    "papers",
+    "research",
+    "digest",
+    "literature"
+  ]
+}

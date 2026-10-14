@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "arxiv-digest",
+  "description": "A personalized daily arXiv digest for Claude.",
+  "owner": {
+    "name": "Moral E."
+  },
+  "plugins": [
+    {
+      "name": "arxiv-digest",
+      "source": "./",
+      "description": "Personalized, tiered digest of newly announced arXiv papers, with close readings, a phone-friendly page and optional notifications.",
+      "category": "research"
+    }
+  ]
+}

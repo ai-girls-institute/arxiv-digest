@@ -1,0 +1,52 @@
+{
+  "arxiv_subjects": ["cs.CL", "cs.LG"],
+  "topics": [
+    "Evaluation and benchmarking of large language models",
+    "Retrieval-augmented generation and long-context methods"
+  ],
+  "profile": {
+    "role": "machine-learning researcher",
+    "focus_areas": [
+      {
+        "name": "LLM evaluation",
+        "tier_a": "New benchmarks, evaluation methodology, contamination or reliability studies for LLMs.",
+        "tier_b": "Dataset papers and surveys with an evaluation angle; general training methods that report careful evaluations."
+      },
+      {
+        "name": "Retrieval and long context",
+        "tier_a": "New retrieval-augmented architectures; analyses of how models use long contexts.",
+        "tier_b": "Embedding and reranking methods; efficient attention for long inputs."
+      }
+    ],
+    "tier_a": "",
+    "tier_b": "",
+    "anchor_papers": [
+      { "id": "2005.11401", "note": "Lewis et al., Retrieval-Augmented Generation" }
+    ],
+    "follow_authors": ["Jane Doe"],
+    "mute": [
+      "Applications of an existing model to one narrow domain with no new method or evaluation"
+    ],
+    "examples": [
+      { "id": "2005.11401", "tier": "A", "why": "defines the retrieval setup this profile builds on" }
+    ]
+  },
+  "digest": {
+    "dir": "arxiv-digests",
+    "prefix": "ml",
+    "language": "English",
+    "close_readings": 5,
+    "include_cross_lists": "tier-a-and-b",
+    "include_replacements": "tier-a"
+  },
+  "site": {
+    "enabled": false,
+    "title": "ML Digest",
+    "artifact_url": ""
+  },
+  "notify": {
+    "ntfy_topic_file": ".arxiv-digest/ntfy-topic",
+    "ntfy_click_file": ".arxiv-digest/ntfy-click",
+    "mac_banner": false
+  }
+}
