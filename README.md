@@ -9,7 +9,7 @@ It fetches every new submission, cross-list and replacement for the arXiv subjec
 In Claude Code:
 
 ```
-/plugin marketplace add Moral-eddy/arxiv-digest
+/plugin marketplace add ai-girls-institute/arxiv-digest
 /plugin install arxiv-digest@arxiv-digest
 ```
 
